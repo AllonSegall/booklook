@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="node_modules/handlebars/dist/handlebars.js"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>BookLook</title>
+  </head>
+  <body>
+    <div class="result col-md-6 col-md-offset-3">
+
+    </div>
+    <div class="row">
+
+      <div class="col-md-6 col-md-offset-3 form-group">
+        <h1>Book Look <a id="eye" target="_blank" href="https://en.wikipedia.org/wiki/Illuminati"><i class="fa fa-eye" aria-hidden="true"></i> </a> </h1>
+
+        <script type="text/x-handlebars-template" id="searchTemplate">
+
+        </script>
+
+        <div class="showHere"></div>
+
+        <h3>Enter Book Info</h3>
+
+        <input type="text" class="form-control" id="title" placeholder="Book Title"><br>
+        <input type="text" class="form-control" id="author" placeholder="Book Author"><br>
+        <input type="text" class="form-control" id="description" placeholder="Book Description"><br>
+        <input type="url" class="form-control" id="url" placeholder="Image URL"><br>
+        <input type="text" class="form-control" id="pages" placeholder="Number Of Pages"><br>
+        <input type="text" class="form-control" id="mins" placeholder="Minutes You Read Per Day"><br>
+        <input type="text" class="form-control" id="isbn" placeholder="International Standard Book Number"><br>
+
+      <button type="button" name="button" class="btn btn-primary" id="searchBtn">Search</button>
+      <button type="button" name="button" class="btn btn-primary" id="addBtn">Add</button>
+      <button type="button" name="button" class="btn btn-danger" id="Pointless">Pointless</button>
+
+      </div>
+
+    </div>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
